@@ -64,7 +64,7 @@ int data_processing(const char* inputfile, const char* outputfile){
     }
 
     // Open the output file
-    ofstream out_file(output_filename);
+    ofstream out_file(outputfile);
     if (!out_file.is_open()) {
     cout << "Error: Unable to open output file." << endl;
     return 1;
